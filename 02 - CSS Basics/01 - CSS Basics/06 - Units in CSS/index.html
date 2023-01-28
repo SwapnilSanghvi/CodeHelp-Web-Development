@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      /* Absolute unit : mm, cm, in, px  */
+      .div1 {
+        width: 600px;
+        height: 200px;
+        background-color: blue;
+      }
+      /* Percentage unit  : % */
+      .div2 {
+        width: 50%;
+        height: 50%;
+      }
+      /* Relative Unit - Relative Unit to Font Size : em, rem*/
+      .para1 {
+        font-size: 20px;
+      }
+      .para2 {
+        font-size: 3em;
+      }
+      .para3 {
+        font-size: 1rem;
+      }
+      .para4 {
+        font-size: 2em;
+      }
+      /* Relative Unit - Relative unit to Viewport : vw, vh  */
+      #div2 {
+        height: 100vh;
+        width: 100vw;
+        background-color: orangered;
+      }
+    </style>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="div1">
+      <div class="div2">
+        <div class="para1">Hello</div>
+        <div class="para2">Hello</div>
+      </div>
+      <div class="div3">
+        <div class="para3">Hello</div>
+        <div class="para4">Hello</div>
+      </div>
+    </div>
+    <div id="div2">
+      <p>Div 2</p>
+    </div>
+  </body>
+</html>
